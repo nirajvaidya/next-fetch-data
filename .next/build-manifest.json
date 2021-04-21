@@ -14,10 +14,10 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/": [
+    "/[vehicle]/[bike]/[persion]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/pages/[vehicle]/[bike]/[persion].js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
@@ -29,20 +29,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/next/dist/pages/_error": [
+    "/posts/[my-post]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/next/dist/pages/_error.js"
-    ],
-    "/posts/Posts": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/posts/Posts.js"
-    ],
-    "/posts/[id]": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/posts/[id].js"
+      "static/chunks/pages/posts/[my-post].js"
     ]
   },
   "ampFirstPages": []

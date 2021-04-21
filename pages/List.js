@@ -8,7 +8,7 @@ const List = () => {
     setstate(ownerList);
   };
   useEffect(() => {
-    allData();
+    // allData();
   }, []);
   return (
     <div>
